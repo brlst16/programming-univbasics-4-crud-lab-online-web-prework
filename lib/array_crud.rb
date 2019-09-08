@@ -21,7 +21,7 @@ end
 
 def remove_element_from_end_of_array(array)
   #array_remove1 = remove_element_from_end_of_array.pop
-  array.shift("arrays!")
+  array.pop("arrays!")
 end
 
 def remove_element_from_start_of_array(array)
