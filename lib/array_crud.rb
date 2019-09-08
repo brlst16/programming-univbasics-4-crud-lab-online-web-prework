@@ -16,11 +16,12 @@ end
 
 def add_element_to_start_of_array(array, element)
   #add_element_to_start_of_array.unshift("element")
-  array.unshift("element")
+  array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  array_remove1 = remove_element_from_end_of_array.pop
+  #array_remove1 = remove_element_from_end_of_array.pop
+  array.shift
 end
 
 def remove_element_from_start_of_array(array)
